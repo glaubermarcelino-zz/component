@@ -1,0 +1,22 @@
+{
+  "name": "painel-component",
+  "version": "1.0.0",
+  "description": "exemplo de componente com npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glaubermarcelino/gts_painel.git"
+  },
+  "keywords": [
+    "angular2;nodejs"
+  ],
+  "author": "Glauber Marcelino da Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glaubermarcelino/gts_painel/issues"
+  },
+  "homepage": "https://github.com/glaubermarcelino/gts_painel#readme"
+}
