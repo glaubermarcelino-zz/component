@@ -1,0 +1,28 @@
+{
+  "name": "panel-component",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glaubermarcelino/component"
+  },
+  "author": {
+    "name": "Glauber M. da Silva",
+    "email": "gmsoft.informatica@gmail.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glaubermarcelino/component/issues"
+  },
+  "main": "panel-component.umd.js",
+  "module": "panel-component.js",
+  "jsnext:main": "panel-component.js",
+  "typings": "panel-component.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
