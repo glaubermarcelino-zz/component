@@ -8,136 +8,59 @@
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-var SampleComponent = (function () {
-    function SampleComponent() {
+var GTSComponent = (function () {
+    function GTSComponent() {
     }
-    SampleComponent.decorators = [
+    GTSComponent.decorators = [
         { type: core.Component, args: [{
-                    selector: 'sample-component',
-                    template: "<h1>Sample component</h1>"
+                    selector: 'gts-component',
+                    template: "<h1>Component Exemplo</h1> <h1>Component Exemplo</h1> <h1>Component Exemplo</h1> <h1>Component Exemplo</h1> <h1>Component Exemplo</h1> <h1>Component Exemplo</h1> <h1>Component Exemplo</h1> <h1>Component Exemplo</h1> <h1>Component Exemplo</h1> <h1>Component Exemplo</h1> <h1>Component Exemplo</h1> <h1>Component Exemplo</h1> <h1>Component Exemplo</h1> <h1>Component Exemplo</h1>"
                 },] },
     ];
     /** @nocollapse */
-    SampleComponent.ctorParameters = function () { return []; };
-    return SampleComponent;
+    GTSComponent.ctorParameters = function () { return []; };
+    return GTSComponent;
 }());
 
 /**
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-var SampleDirective = (function () {
-    function SampleDirective(el) {
-        this.el = el;
-    }
-    SampleDirective.decorators = [
-        { type: core.Directive, args: [{
-                    selector: '[sampleDirective]'
-                },] },
-    ];
-    /** @nocollapse */
-    SampleDirective.ctorParameters = function () { return [
-        { type: core.ElementRef, },
-    ]; };
-    return SampleDirective;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/**
- * Transforms any input value
- */
-var SamplePipe = (function () {
-    function SamplePipe() {
-    }
-    /**
-     * @param {?} value
-     * @param {?=} args
-     * @return {?}
-     */
-    SamplePipe.prototype.transform = /**
-     * @param {?} value
-     * @param {?=} args
-     * @return {?}
-     */
-    function (value, args) {
-        if (args === void 0) { args = null; }
-        return value;
-    };
-    SamplePipe.decorators = [
-        { type: core.Pipe, args: [{
-                    name: 'samplePipe'
-                },] },
-        { type: core.Injectable },
-    ];
-    /** @nocollapse */
-    SamplePipe.ctorParameters = function () { return []; };
-    return SamplePipe;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var SampleService = (function () {
-    function SampleService() {
-    }
-    SampleService.decorators = [
-        { type: core.Injectable },
-    ];
-    /** @nocollapse */
-    SampleService.ctorParameters = function () { return []; };
-    return SampleService;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var SampleModule = (function () {
-    function SampleModule() {
+var GTSModule = (function () {
+    function GTSModule() {
     }
     /**
      * @return {?}
      */
-    SampleModule.forRoot = /**
+    GTSModule.forRoot = /**
      * @return {?}
      */
     function () {
         return {
-            ngModule: SampleModule,
-            providers: [SampleService]
+            ngModule: GTSModule,
+            providers: []
         };
     };
-    SampleModule.decorators = [
+    GTSModule.decorators = [
         { type: core.NgModule, args: [{
                     imports: [
                         common.CommonModule
                     ],
                     declarations: [
-                        SampleComponent,
-                        SampleDirective,
-                        SamplePipe
+                        GTSComponent
                     ],
                     exports: [
-                        SampleComponent,
-                        SampleDirective,
-                        SamplePipe
+                        GTSComponent
                     ]
                 },] },
     ];
     /** @nocollapse */
-    SampleModule.ctorParameters = function () { return []; };
-    return SampleModule;
+    GTSModule.ctorParameters = function () { return []; };
+    return GTSModule;
 }());
 
-exports.SampleModule = SampleModule;
-exports.SampleComponent = SampleComponent;
-exports.SampleDirective = SampleDirective;
-exports.SamplePipe = SamplePipe;
-exports.SampleService = SampleService;
+exports.GTSModule = GTSModule;
+exports.GTSComponent = GTSComponent;
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
