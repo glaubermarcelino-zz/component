@@ -25,7 +25,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import your library
-import { SampleModule } from 'gts-component';
+import { GTSModule } from 'gts-component';
 
 @NgModule({
   declarations: [
@@ -50,7 +50,7 @@ Once your library is imported, you can use its components, directives and pipes 
 <h1>
   {{title}}
 </h1>
-<sampleComponent></sampleComponent>
+<gts-component></gts-component>
 ```
 
 ## Development
